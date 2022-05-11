@@ -8,19 +8,35 @@ function ProfileCards() {
     const [people, setPeople] = useState([
         {
             name: "Megan",
-            flag: "I eat my own toenails"
+            flag: "I will eat your toenails"
         },
         {
             name: "Meghan",
-            flag: "I eat your toenails"
+            flag: "I eat my own toenails"
         },
         {
-            name: "Meagen",
-            flag: "I am a catperson"
+            name: "Megan",
+            flag: "I am a professional wrestler!"
+        },
+        {
+            name: "Megan",
+            flag: "I have a domestic violence charges against me."
+        },
+        {
+            name: "Megan",
+            flag: "I am a Minotaur."
+        },
+        {
+            name: "Megan",
+            flag: "I like heroin."
+        },
+        {
+            name: "Megan",
+            flag: "I am a catperson."
         },
         {
             name: "Meg",
-            flag: "I love the Denver Broncos"
+            flag: "I love cats!"
         }]);
 
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
 .chat {
     display: flex;
     align-items: center;
@@ -9,6 +11,10 @@
 
 .chat__details {
     flex: 1;
+    alignment: left;
+    alignment-baseline: before-edge;
+    align-content: center;
+    color: lightgray;
 }
 
 .chat__details > p {

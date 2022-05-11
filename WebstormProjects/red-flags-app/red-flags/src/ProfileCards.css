@@ -6,7 +6,7 @@
 
 .card{
     postion: relative;
-    background-color: white;
+    background-color: orangered;
     width: 600px;
     padding: 20px;
     max-width: 85vw;
@@ -28,14 +28,17 @@
 
 .card h3{
     position: absolute;
+    font: bolder;
     bottom: 0;
     margin: 10px;
-    color: #000;
+    color: #ECEFF1;
 }
 
 .flag-text{
     height: 100%;
-    font-size: medium;
+    font: bolder;
+    font-size: x-large;
     position: center;
     text-align: center;
+    color: #ECEFF1;
 }

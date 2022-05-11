@@ -1,5 +1,5 @@
 import React from "react";
-import "./Chats.css";
+import "./ChatScreen.css";
 import Chat from "./Chat";
 import Header from "../Header.js";
 
@@ -9,18 +9,18 @@ function Chats () {
             <Header backButton="/"/>
         <div className="chats">
         <Chat
-            name = "Meg"
+            name = "Megan Fox"
             message = "Hey"
             timestamp = "1 minute ago"
             />
         <Chat
-            name = "Megan"
-            message = "Hey dummy"
+            name = "Mom"
+            message = "Don't forget to wear sunscreen!"
             timestamp = "1 hour ago"
         />
         <Chat
             name = "Meggy"
-            message = "Hey boyo"
+            message = "Do you like cats?"
             timestamp = "1 hour ago"
         />
         <Chat

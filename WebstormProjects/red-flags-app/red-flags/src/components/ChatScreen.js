@@ -10,12 +10,13 @@ function ChatScreen(){
             message:'Hey there!'
         },
         {
-            name: 'Megan',
-            message:'What is up?'
+            message:'Hey there!'
         },
         {
-        message:'Hey there!'
+            name: 'Megan',
+            message:'Do you like cats???'
         },
+
     ])
     const handleSend = (e) => {
         e.preventDefault();
