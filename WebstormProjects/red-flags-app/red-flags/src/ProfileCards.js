@@ -5,44 +5,12 @@ import axios from './axios';
 
 
 function ProfileCards() {
-    const [people, setPeople] = useState([
-        {
-            name: "Megan",
-            flag: "I will eat your toenails"
-        },
-        {
-            name: "Meghan",
-            flag: "I eat my own toenails"
-        },
-        {
-            name: "Megan",
-            flag: "I am a professional wrestler!"
-        },
-        {
-            name: "Megan",
-            flag: "I have a domestic violence charges against me."
-        },
-        {
-            name: "Megan",
-            flag: "I am a Minotaur."
-        },
-        {
-            name: "Megan",
-            flag: "I like heroin."
-        },
-        {
-            name: "Megan",
-            flag: "I am a catperson."
-        },
-        {
-            name: "Meg",
-            flag: "I love cats!"
-        }]);
+    const [people, setPeople] = useState([]);
 
 
     useEffect(() => {
         async function fetchData() {
-            const req = await axios.get("/tinder/cards");
+            const req = await axios.get("/dating/cards");
 
             setPeople(req.data);
         }
